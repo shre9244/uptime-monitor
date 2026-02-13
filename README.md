@@ -7,7 +7,7 @@ If a service is DOWN, the system also generates a simple AI-based explanation of
 
 ---
 
-## ✨ Why I built this
+##  Why I built this
 
 As a fresher, I wanted to build a project that is:
 - Practical and useful
@@ -19,7 +19,7 @@ This project is inspired by tools like Uptime Kuma and UptimeRobot, but built fr
 
 ---
 
-## ⚙️ What this project does
+##  What this project does
 
 1. User adds a service URL (example: https://google.com)
 2. The system checks the URL using HTTP requests
@@ -30,7 +30,7 @@ This project is inspired by tools like Uptime Kuma and UptimeRobot, but built fr
 
 ---
 
-## 🧠 Features
+##  Features
 
 - Add and monitor website URLs
 - Automatic uptime checks
@@ -42,7 +42,7 @@ This project is inspired by tools like Uptime Kuma and UptimeRobot, but built fr
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend & Backend:** Next.js (App Router)
 - **Database:** PostgreSQL
@@ -62,7 +62,7 @@ _Add screenshots of the Dashboard here_
 </p>
 ---
 
-## 🧪 Example Use Case
+##  Example Use Case
 
 - Monitoring personal projects
 - Checking deployed apps
@@ -71,5 +71,4 @@ _Add screenshots of the Dashboard here_
 
 ---
 
-## 📂 Project Structure (simplified)
 
