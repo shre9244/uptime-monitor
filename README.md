@@ -56,9 +56,10 @@ This project is inspired by tools like Uptime Kuma and UptimeRobot, but built fr
 ## 📸 Screenshots
 
 _Add screenshots of the Dashboard here_
-![Dashboard](./screenshots/dashboard.png)
+## 📸 Screenshots
+
 <p align="center">
-  <img src="./screenshots/dashboard.png" width="800" />
+  <img src="./screenshot/dashboard.png" width="800" />
 </p>
 ---
 
