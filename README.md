@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Uptime Monitor (AI-powered)
 
-## Getting Started
+This is a simple uptime monitoring project that I built to understand how real-world backend systems work.
 
-First, run the development server:
+The app allows users to add website URLs, checks whether they are UP or DOWN, stores the result in a database, and shows everything on a dashboard.  
+If a service is DOWN, the system also generates a simple AI-based explanation of what might have gone wrong.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Why I built this
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+As a fresher, I wanted to build a project that is:
+- Practical and useful
+- Not just CRUD
+- Similar to real SaaS products
+- Helpful for learning backend, databases, and system design
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is inspired by tools like Uptime Kuma and UptimeRobot, but built from scratch to understand the internals.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ⚙️ What this project does
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. User adds a service URL (example: https://google.com)
+2. The system checks the URL using HTTP requests
+3. Status is marked as **UP** or **DOWN**
+4. Result is stored in PostgreSQL using Prisma
+5. If a service is DOWN, an AI-generated message explains possible reasons
+6. Dashboard shows all monitored services with latest status
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧠 Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Add and monitor website URLs
+- Automatic uptime checks
+- PostgreSQL database integration
+- Prisma ORM with migrations
+- AI-based downtime explanation
+- Clean and minimal dashboard UI
+- Built using Next.js App Router
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend & Backend:** Next.js (App Router)
+- **Database:** PostgreSQL
+- **ORM:** Prisma
+- **Runtime:** Node.js
+- **AI:** Simple AI-based explanation logic
+- **Language:** TypeScript
+
+---
+
+## 📸 Screenshots
+
+_Add screenshots of the Dashboard here_
+![Dashboard](./screenshots/dashboard.png)
+---
+
+## 🧪 Example Use Case
+
+- Monitoring personal projects
+- Checking deployed apps
+- Learning how uptime systems work internally
+- Understanding backend + database flow
+
+---
+
+## 📂 Project Structure (simplified)
+
