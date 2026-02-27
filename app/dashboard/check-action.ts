@@ -8,7 +8,7 @@ export async function checkAllServices() {
   const services = await prisma.service.findMany();
 
   for (const service of services) {
-    await checkUptime(service.id, service.url);
+    await checkUptime(service.url);
   }
 
   redirect("/dashboard");
